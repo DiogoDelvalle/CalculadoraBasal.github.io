@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+body {
+  background-image: linear-gradient(to right top, #073cab, #6163c0,
+   #958ed5, #c4bcea, #f1edff);
+  padding: 353px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+#caja {
+  width: 900px;
+  height: 500px;
+  text-align: center;
+
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+#cajaIz {
+  background: #00B2A5;
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+#cajaDer {
+  background: #767395;
+
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.contenido {
+
+  position: relative;
+  top: 40%;
+  transform: translateY(-50%);
+  overflow: hidden;
+  padding: 40px;
+}
+
+input {
+  width: 70%;
+  padding: 12px 15px;
+  border: none;
+  background-color: #F1EDFF;
+}
+
+button {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 12px 45px;
+  margin-top: 20px;
+  border-radius: 30px;
+  background-color: #767395;
+  border: 1px solid #767395;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: transform 20ms ease-in;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+#error {
+  color: red;
+  font-weight: bold;
+  display: none;
+}
+
+.resultado {
+  color: #0A81D1;
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 5px;
+  display: none;
+}
